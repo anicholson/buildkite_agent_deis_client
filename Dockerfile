@@ -1,5 +1,7 @@
 FROM buildkite/agent
 
+MAINTAINER Andy Nicholson <andrew@anicholson.net>
+
 RUN mkdir -p /opt
 
 RUN curl -sSL "http://deis.io/deis-cli/install.sh" >  /opt/deis_install.sh
