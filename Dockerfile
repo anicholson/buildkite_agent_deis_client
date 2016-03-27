@@ -1,4 +1,4 @@
-FROM buildkite/agent
+FROM buildkite/agent:ubuntu-docker
 
 MAINTAINER Andy Nicholson <andrew@anicholson.net>
 
